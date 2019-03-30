@@ -430,18 +430,8 @@ section.has-dark-background h3 {
 
 .footer img {
     position: absolute;
-    top: 0px;
-    right: 0px;
-    height:100%;
+    left: 2%;
+    height:75%;
 }
-
-.footer p {
-    margin: 0px;
-    text-align: left;
-    padding-left: 10px;
-    font-size: 1em;
-    font-weight: bold
-}
-
 
 

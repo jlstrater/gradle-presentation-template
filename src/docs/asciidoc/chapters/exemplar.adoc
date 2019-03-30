@@ -1,0 +1,5 @@
+== Exemplar
+
+=== Contributions Welcome
+
+* *Idea:* Add markdown support

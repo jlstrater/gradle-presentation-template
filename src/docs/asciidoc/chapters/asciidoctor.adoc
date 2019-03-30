@@ -1,0 +1,57 @@
+[background-color="#02303A"]
+== Asciidoc (and Asciidoctor)
+
+Let's Get Meta!
+
+=== What is Asciidoc?
+
+* a format
+* easily convertible to html, pdf, book formats, etc
+* similar to markdown/latex
+
+=== What is Asciidoctor?
+
+* a tool to convert asciidoc files into other formats (called backends)
+* written in ruby, but also has Gradle and Maven plugins
+* easily extensible
+
+https://asciidoctor.org[asciidoctor.org]
+
+=== Basic Format
+
+[source, asciidoc]
+----
+:revnumber: {project-version}
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../java]
+:navigation:
+:menu:
+:status:
+:title-slide-background-image: title.jpeg
+:title-slide-transition: zoom
+:title-slide-transition-speed: fast
+:icons: font
+
+= : Test-Driven Approaches to Documentation
+
++++<h2>+++
+with Gradle, Asciidoctor, and Exemplar
++++</h2>+++
+
+Jenn Strater (@codeJENNerator) - Developer Advocate - Gradle Inc.
+
+== Follow Along
+
+image::logos/github-logo.png[width=10%, height=10%]
+
+https://jlstrater.github.io/testdriven-docs-microxchg[jlstrater.github.io/testdriven-docs-microxhg]
+
+[background-color="#02303A"]
+== Outline
+
+* ++++ Background
+* Documentation in General
+* Intro to Asciidoc (and Asciidoctor)
+* Test-Driven Approaches and Exemplar
+----

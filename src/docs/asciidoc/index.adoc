@@ -10,82 +10,72 @@ ifndef::sourcedir[:sourcedir: ../java]
 :title-slide-transition-speed: fast
 :icons: font
 
-= : Switching to Gradle
+= : Test-Driven Approaches to Documentation
 
 +++<h2>+++
-Maturity, performance and pleasure!
+with Gradle, Asciidoctor, and Exemplar
 +++</h2>+++
 
-Cédric Champeau (@CedricChampeau) & Louis Jacomet (@ljacomet) - Gradle Inc.
+Jenn Strater (@codeJENNerator) - Developer Advocate - Gradle Inc.
 
-== Who are we?
+== Follow Along
+
+image::logos/github-logo.png[width=10%, height=10%]
+
+https://jlstrater.github.io/testdriven-docs-microxchg[jlstrater.github.io/testdriven-docs-microxhg]
+
+[background-color="#02303A"]
+== Outline
+
+* Background
+* Documentation in General
+* Intro to Asciidoc (and Asciidoctor)
+* Test-Driven Approaches and Exemplar
+
+== Who am I?
 
 [%notitle]
-=== Cedric
+=== Jenn
 [source,groovy]
 ----
 speaker {
-    name 'Cédric Champeau'
+    name 'Jennifer "Jenn" Strater'
     company 'Gradle Inc'
-    oss 'Apache Groovy committer',
-    successes 'Static type checker',
-              'Static compilation',
-              'Traits',
-              'Markup template engine',
-              'DSLs'
-        failures Stream.of(bugs),
-        twitter '@CedricChampeau',
-        github 'melix',
-        extraDescription '''Groovy in Action 2 co-author
-Misc OSS contribs'''
+    ossContributions 'Codenarc, Spring REST Docs, and more',
+    communityWork 'Groovy Community Slack owner',
+              'GR8DI board',
+              'GR8Conf crew',
+    twitter '@codeJENNerator',
+    github 'jlstrater',
+    extraDescription '''always looking for more time
+    to contribute to Open Source'''
 }
 ----
 
-[%notitle]
-=== Louis
-[source,groovy]
-----
-speaker {
-    name 'Louis Jacomet'
-    company 'Gradle Inc'
-    past 'Terracotta / Ehcache',
-              'Freelance consultant',
-        failures Stream.of(bugs),
-        twitter '@ljacomet',
-        github 'ljacomet',
-        extraDescription '''Not fully figured out
-how to stay out of management?!?'''
-}
-----
+=== Before Gradle
+* Groovy (and Grails) dev in the US and Germany
+* Experience in Microservice and Monolithic Architectures
+* Spring REST Docs contributor and advocate
 
 include::chapters/about-gradle.adoc[]
+include::chapters/about-you.adoc[]
 
-== A screencast
+== !
 
-screencast:step1[]
+image::whisper.png[background, size="cover"]
 
-== Another screencast
+++++
+<section>
+ <p class="fragment fade-left" style="background-color: rgba(255, 255, 255, .7); font-size:60px;">I hate writing documentation!*</p>
+</section>
+++++
 
-screencast:step2[]
+include::chapters/documentation-in-general.adoc[]
+include::chapters/asciidoctor.adoc[]
+
+include::chapters/exemplar.adoc[]
 
 == Conclusion
 
-=== Gradle Enterprise
-
-* On premise build cache and build scan solution
-* Out of the box solution for distributed build cache
-* Improved build scan feature set
-** Searchable build history
-** Build comparison
-
-=== Sessions at Devoxx BE
-
-* https://dvbe18.confinabox.com/talk/DBF-1594/project_versioning_like_a_git[Project versioning like a git]
-** Matthieu Brouillard
-** Wednesday, 13:30 - 13:45 Room 5
-
-* https://dvbe18.confinabox.com/talk/VFH-6802/Improving_Android_Build_Performance[Improving Android Build performance]
-** Cédric Champeau
-**  Thursday, 16:30 - 17:15 Room 3
-
-
+* Documentation isn't always fun, but automation makes it easier!
+* The only constant is change.

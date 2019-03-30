@@ -1,0 +1,28 @@
+[background-color="#02303A"]
+== Documentation
+
+=== Types of Documentation
+
+* Reference
+** Javadoc
+** API reference docs
+* User manuals
+* Guides/tutorials
+
+=== Publishing
+
+* Statics sites
+* PDFs
+* Asciidoc (for both ... and more!)
+
+[background-color="#00C489"]
+=== Considerations
+
+=== Architecture
+
+image::micro-poo.png[width=100%, height=100%]
+
+=== !
+
+Out of date docs are worse than no docs at all.
+
