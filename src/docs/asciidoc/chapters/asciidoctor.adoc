@@ -98,36 +98,6 @@ https://jlstrater.github.io/test-driven-docs-microxchg[jlstrater.github.io/test-
 * Publishing (to GitHub pages)
 --
 
-[background-color="#00C489"]
-=== At Gradle
-
-=== In the user guide
-
-image::gradle-user-guide.png[width=90%, height=90%]
-
-[.notes]
---
-* Mostly Asciidoc
-** One docbook subproject left to convert
-* Both HTML and PDF backends
---
-
-=== https://guides.gradle.org[guides.gradle.org]
-
-image:gradle-guides-frontpage.png[width=90%, height=90%]
-
-=== Gradle guides
-
-image:gradle-guides-guide.png[width=95%, height=95%]
-
-[.notes]
---
-* Guides aka tutorials
-* All asciidoc
-* Mix of exemplar and Gradle test runner
-* Several helpful Asciidoctor extensions
---
-
 === Extensions
 
 * Samples Macro

@@ -24,7 +24,7 @@ image::logos/github-logo.png[width=10%, height=10%]
 
 https://jlstrater.github.io/test-driven-docs-microxchg[jlstrater.github.io/testdriven-docs-microxhg]
 
-Download the pdf: https://jlstrater.github.io/test-driven-docs-microxchg/index.html?print-pdf[jlstrater.github.io/testdriven-docs-microxhg/index.html?print-pdf]
+pdf: https://jlstrater.github.io/test-driven-docs-microxchg/index.html?print-pdf[jlstrater.github.io/testdriven-docs-microxhg/index.html?print-pdf]
 
 [background-color="#02303A"]
 == Outline

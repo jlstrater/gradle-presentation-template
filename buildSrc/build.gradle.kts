@@ -15,9 +15,6 @@ dependencies {
     compile("me.champeau.deck2pdf:deck2pdf:0.3.0")
     compileOnly("org.asciidoctor:asciidoctorj:1.5.6")
     
-    testImplementation("org.gradle:sample-check:0.7.0")
-    testImplementation(gradleTestKit())
-
     components.all(RemoveGroovyRule::class.java)
 
     configurations.all {

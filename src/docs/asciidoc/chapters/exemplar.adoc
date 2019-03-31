@@ -3,15 +3,17 @@
 
 === !
 
-image::red-green-refactor.png[]
+image::red-green-refactor.png[width=60%, height=60%]
 
+[transition=none]
 === !
 
-image::red-green-refactor-with-docs.png[]
+image::red-green-refactor-with-docs.png[width=60%, height=60%]
 
 === Introducing Exemplar
 
-
+* https://github.com/gradle/exemplar[Gradle/Exemplar] on GitHub
+* Finds samples, executes them, and verifies their outputs
 
 === Contributions Welcome
 
