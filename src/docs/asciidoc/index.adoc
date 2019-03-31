@@ -22,7 +22,9 @@ Jenn Strater (@codeJENNerator) - Developer Advocate - Gradle Inc.
 
 image::logos/github-logo.png[width=10%, height=10%]
 
-https://jlstrater.github.io/testdriven-docs-microxchg[jlstrater.github.io/testdriven-docs-microxhg]
+https://jlstrater.github.io/test-driven-docs-microxchg[jlstrater.github.io/testdriven-docs-microxhg]
+
+Download the pdf: https://jlstrater.github.io/test-driven-docs-microxchg/index.html?print-pdf[jlstrater.github.io/testdriven-docs-microxhg/index.html?print-pdf]
 
 [background-color="#02303A"]
 == Outline
@@ -75,7 +77,11 @@ include::chapters/asciidoctor.adoc[]
 
 include::chapters/exemplar.adoc[]
 
+include::chapters/otherTools.adoc[]
+
 == Conclusion
 
 * Documentation isn't always fun, but automation makes it easier!
 * The only constant is change.
+
+include::chapters/resources.adoc[]

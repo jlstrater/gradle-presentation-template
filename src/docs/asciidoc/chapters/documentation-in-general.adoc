@@ -1,28 +1,41 @@
 [background-color="#02303A"]
 == Documentation
 
-=== Types of Documentation
-
-* Reference
-** Javadoc
-** API reference docs
-* User manuals
-* Guides/tutorials
-
-=== Publishing
-
-* Statics sites
-* PDFs
-* Asciidoc (for both ... and more!)
-
 [background-color="#00C489"]
 === Considerations
 
-=== Architecture
+=== !
 
 image::micro-poo.png[width=100%, height=100%]
 
-=== !
+=== Type of information being conveyed
 
-Out of date docs are worse than no docs at all.
+* Is this a reference document?
+* Does it belongs in the user manual?
+* Can it be a separate, independent document?
+
+=== Types of documentation
+
+[%step]
+* Reference
+** Javadoc
+*** https://docs.gradle.org/current/javadoc/index.html?overview-summary.html[https://docs.gradle.org/current/javadoc/index.html?overview-summary.html]
+** DSL reference docs
+*** Groovy DSL https://docs.gradle.org/current/dsl/index.html[https://docs.gradle.org/current/dsl/index.html]
+*** Kotlin DSL https://gradle.github.io/kotlin-dsl-docs/api/[https://gradle.github.io/kotlin-dsl-docs/api/]
+
+=== Types of documentation
+* User guides
+** https://docs.gradle.org/current/userguide/userguide.html[https://docs.gradle.org/current/userguide/userguide.html]
+* Guides/tutorials
+** https://guides.gradle.org[guides.gradle.org]
+
+=== Who owns the process?
+
+[%step]
+* Developers
+* Product teams
+* Writers
+
+=== Out of date docs are worse than no docs at all.
 

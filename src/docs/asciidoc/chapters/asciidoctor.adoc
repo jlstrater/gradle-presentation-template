@@ -1,13 +1,43 @@
 [background-color="#02303A"]
-== Asciidoc (and Asciidoctor)
+== Tooling
 
-Let's Get Meta!
+=== Writing
+
+* Plain Text
+** WYSIWYG Wiki Pages, Word Documents, Confluence, etc
+* Markup
+** Asciidoc, Markdown, LaTeX
+* Automated
+** Swagger / RAML
+
+=== Docs as Code
+
+image::docToolchainDiagram.png[height=100%]
+
+https://doctoolchain.github.io/docToolchain/[image source]
+
+[transition=none]
+=== Docs as Code
+
+image::docToolchainDiagramHighlighted.png[height=100%]
+
+https://doctoolchain.github.io/docToolchain/[image source]
+
+=== Publishing
+
+* Statics sites
+* PDFs
+* Asciidoctor (for both ... and more!)
+
+[background-color="#02303A"]
+== Asciidoc (and Asciidoctor)
 
 === What is Asciidoc?
 
 * a format
 * easily convertible to html, pdf, book formats, etc
 * similar to markdown/latex
+* recognized by GitHub as a readme format
 
 === What is Asciidoctor?
 
@@ -16,6 +46,9 @@ Let's Get Meta!
 * easily extensible
 
 https://asciidoctor.org[asciidoctor.org]
+
+[background-color="#00C489"]
+=== Let's Get Meta!
 
 === Basic Format
 
@@ -45,7 +78,7 @@ Jenn Strater (@codeJENNerator) - Developer Advocate - Gradle Inc.
 
 image::logos/github-logo.png[width=10%, height=10%]
 
-https://jlstrater.github.io/testdriven-docs-microxchg[jlstrater.github.io/testdriven-docs-microxhg]
+https://jlstrater.github.io/test-driven-docs-microxchg[jlstrater.github.io/test-driven-docs-microxhg]
 
 [background-color="#02303A"]
 == Outline
@@ -55,3 +88,73 @@ https://jlstrater.github.io/testdriven-docs-microxchg[jlstrater.github.io/testdr
 * Intro to Asciidoc (and Asciidoctor)
 * Test-Driven Approaches and Exemplar
 ----
+
+[.notes]
+--
+* basic syntax (headers, config, links, images, tags)
+* Gradle plugin (and config)
+* Running asciidoctor and making changes (in continuous mode)
+* Extensions
+* Publishing (to GitHub pages)
+--
+
+[background-color="#00C489"]
+=== At Gradle
+
+=== In the user guide
+
+image::gradle-user-guide.png[width=90%, height=90%]
+
+[.notes]
+--
+* Mostly Asciidoc
+** One docbook subproject left to convert
+* Both HTML and PDF backends
+--
+
+=== https://guides.gradle.org[guides.gradle.org]
+
+image:gradle-guides-frontpage.png[width=90%, height=90%]
+
+=== Gradle guides
+
+image:gradle-guides-guide.png[width=95%, height=95%]
+
+[.notes]
+--
+* Guides aka tutorials
+* All asciidoc
+* Mix of exemplar and Gradle test runner
+* Several helpful Asciidoctor extensions
+--
+
+=== Extensions
+
+* Samples Macro
+* Multi-Language Support
+* Lint Checker
+
+=== Samples Macro
+
+[source,asciidoc]
+--
+
+[source,groovy]
+----
+\include::sample[dir="groovy-dsl/code", files="build.gradle[tags=init]"]
+----
+
+--
+
+https://gist.github.com/jlstrater/c9de94a56e1b6f2b00bf519f47c6cf2e[as a GitHub gist]
+
+=== Multi-Language Support
+
+image::side-by-side.png[width=100%, height=100%]
+
+https://gist.github.com/jlstrater/f0b2f16e17e940b9f321783b51c7b347[as a GitHub gist]
+
+=== Lint Checker
+
+* compares headings of Asciidoc files to fail the build when titles collide/overlap
+** helpful for refactoring

@@ -120,6 +120,7 @@ class AsciidoctorPresentationPlugin : Plugin<Project> {
                         "source-highlighter" to extension.highlighter.get(),
                         "imagesdir" to "./images",
                         "buildsdir" to "../../../scripts",
+                        "inputs.dir" to "samples",
                         "toc" to "left",
                         "icons" to "font",
                         "setanchors" to "true",

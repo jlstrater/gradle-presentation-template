@@ -1,4 +1,17 @@
-== Exemplar
+[background-color="#02303A"]
+== Test Driven Documentation
+
+=== !
+
+image::red-green-refactor.png[]
+
+=== !
+
+image::red-green-refactor-with-docs.png[]
+
+=== Introducing Exemplar
+
+
 
 === Contributions Welcome
 
