@@ -114,13 +114,13 @@ class AsciidoctorPresentationPlugin : Plugin<Project> {
                     from("src/docs/asciidoc/screencasts")
                 })
                 backends("revealjs")
-                dependsOn(downloadTask, tasks.getByName("jrubyPrepare"))
+                dependsOn(downloadTask, tasks.getByName("jrubyPrepare"), tasks.getByName("test"))
 
                 attributes(mapOf(
                         "source-highlighter" to extension.highlighter.get(),
                         "imagesdir" to "./images",
                         "buildsdir" to "../../../scripts",
-                        "inputs.dir" to "samples",
+                        "samples-dir" to file("${projectDir}/samples"),
                         "toc" to "left",
                         "icons" to "font",
                         "setanchors" to "true",
@@ -135,7 +135,7 @@ class AsciidoctorPresentationPlugin : Plugin<Project> {
                         "revealjs_history" to "true",
                         "revealjs_slideNumber" to "true",
                         "revealjs_theme" to extension.theme.get(),
-                        "examples" to file("${projectDir}/examples")))
+                        "samples" to file("${projectDir}/samples")))
 
                 val slimTemplatesDir = File(templateDir.get().asFile, "asciidoctor-reveal.js-${extension.asciidoctorBackendVersion.get()}/templates")
                 options(mapOf(

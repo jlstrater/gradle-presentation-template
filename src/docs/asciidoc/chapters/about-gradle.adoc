@@ -1,6 +1,8 @@
 == What is Gradle?
 
-=== Gradle's purpose
+=== !
+
+image::logos/gradle-build-tool.svg[Static, 300, background, size=cover]
 
 Gradle is a build and automation tool.
 
@@ -20,7 +22,7 @@ image::scan.png[width=40%, height=40%]
 
 === !
 
-image::gradle-enterprise.svg[Static, 300, background, size=cover]
+image::logos/gradle-enterprise.svg[Static, 300, background, size=cover]
 
 * On premise build cache and build scan solution
 * Out of the box solution for distributed build cache

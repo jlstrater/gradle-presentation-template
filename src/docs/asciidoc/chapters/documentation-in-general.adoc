@@ -1,18 +1,45 @@
 [background-color="#02303A"]
 == Documentation
 
-[background-color="#00C489"]
-=== Considerations
-
-=== !
-
-image::micro-poo.png[width=100%, height=100%]
-
 === Type of information being conveyed
 
 * Is this a reference document?
 * Does it belongs in the user manual?
-* Can it be a separate, independent document?
+* Can it be a separate, independent document like a tutorial?
+
+[.notes]
+--
+* reference == implementation details
+* user manual == explanations of how and why
+* tutorials == step by step guides with steps that might need to be tested and quicky become out of date
+links to user manual and other reference material but generally can be completed without help of other material
+--
+
+=== Who owns the process?
+
+[%step]
+* Developers
+* Product teams
+* Writers
+
+=== Versioning
+
+[.notes]
+* Same as product or separate/"current"
+* They need to be versioned just like the source code so they refer to historical features/implementations.
+* Docs cannot be updated dynamically
+
+[.notes]
+--
+Gradle used to have only "current" docs, but soon switched to versions included with the distribution for historical
+features/references
+--
+
+=== Out of date docs are worse than no docs at all.
+
+=== Solve your problems now!
+
+image::micro-poo.png[width=100%, height=100%]
 
 [background-color="#00C489"]
 === Types of documentation at Gradle
@@ -51,13 +78,4 @@ image:gradle-guides-guide.png[width=95%, height=95%]
 * Mix of exemplar and Gradle test runner
 * Several helpful Asciidoctor extensions
 --
-
-=== Who owns the process?
-
-[%step]
-* Developers
-* Product teams
-* Writers
-
-=== Out of date docs are worse than no docs at all.
 

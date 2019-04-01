@@ -84,4 +84,7 @@ include::chapters/otherTools.adoc[]
 * Documentation isn't always fun, but automation makes it easier!
 * The only constant is change.
 
+[background-color="#02303A"]
+== Thank you!
+
 include::chapters/resources.adoc[]

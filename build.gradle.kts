@@ -19,3 +19,9 @@ presentation {
     githubUserName.set("jlstrater")
     githubRepoName.set("test-driven-docs-microxchg")
 }
+
+tasks {
+    build {
+        dependsOn(asciidoctor)
+    }
+}

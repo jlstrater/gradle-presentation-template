@@ -10,11 +10,66 @@ image::red-green-refactor.png[width=60%, height=60%]
 
 image::red-green-refactor-with-docs.png[width=60%, height=60%]
 
+[.notes]
+--
+More tests + more docs == everyone happier
+Always up to date (per the version checked)
+Checks backwards compatibility
+--
+
 === Introducing Exemplar
 
 * https://github.com/gradle/exemplar[Gradle/Exemplar] on GitHub
 * Finds samples, executes them, and verifies their outputs
+* Project Lead
+** Eric Wendelin (@eriwen), Head of Developer Experience at Gradle
+
+=== Quickstart
+
+[source, groovy]
+----
+repositories {
+    maven {
+        url = uri("https://repo.gradle.org/gradle/libs")
+    }
+}
+
+dependencies {
+    testImplementation("org.gradle:sample-check:0.7.0")
+}
+----
+
+
+=== Example Gradle Project
+
+====
+include::sample[dir="groovy-dsl/code", files="build.gradle[tag=init]"]
+====
+<1> repository information
+
+=== Example Embedded Snippets
+
+.Sample title
+====
+[.testable-sample]
+=====
+.hello.groovy
+[source,groovy]
+----
+println "Hello, World!"
+----
+
+[.sample-command, allow-additional-output=true]
+----
+$ groovy hello.groovy
+Hello, World!
+----
+=====
+====
 
 === Contributions Welcome
 
 * *Idea:* Add markdown support
+* help triage issues and PRs
+
+https://github.com/gradle/exemplar[Gradle/Exemplar] on GitHub

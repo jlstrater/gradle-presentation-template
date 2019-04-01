@@ -1,6 +1,6 @@
 == About you
 
 [%step]
-* Ecosystem (Java, C, .NET, etc)
-* Microservice architecture
-* Role in Documentation (writer, reviewer, maintainer)
+* Ecosystem (Java, Android, JS, etc)
+* Monolith, Microservice architecture
+* Role in Documentation (writer, maintainer)

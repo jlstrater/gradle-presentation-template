@@ -8,7 +8,18 @@
 * Markup
 ** Asciidoc, Markdown, LaTeX
 * Automated
-** Swagger / RAML
+** Swagger / RAML footnote:[Spring REST Docs video, https://www.youtube.com/watch?v=6Eg8ShJfz7k&t=4s&index=4&list=PLSzU7snapMVZ4n5s5glQz4Dd_C3572O_2[Spring REST Docs talk]]
+
+=== Publishing
+
+* Statics sites
+* PDFs
+* Asciidoctor (for both ... and more!)
+
+[.notes]
+--
+Remember pdfs are single page! can't hide behind different html pages for different services.
+--
 
 === Docs as Code
 
@@ -22,12 +33,6 @@ https://doctoolchain.github.io/docToolchain/[image source]
 image::docToolchainDiagramHighlighted.png[height=100%]
 
 https://doctoolchain.github.io/docToolchain/[image source]
-
-=== Publishing
-
-* Statics sites
-* PDFs
-* Asciidoctor (for both ... and more!)
 
 [background-color="#02303A"]
 == Asciidoc (and Asciidoctor)
@@ -91,7 +96,7 @@ https://jlstrater.github.io/test-driven-docs-microxchg[jlstrater.github.io/test-
 
 [.notes]
 --
-* basic syntax (headers, config, links, images, tags)
+* basic syntax (headers, config, links, images, tags, callouts)
 * Gradle plugin (and config)
 * Running asciidoctor and making changes (in continuous mode)
 * Extensions
@@ -102,7 +107,6 @@ https://jlstrater.github.io/test-driven-docs-microxchg[jlstrater.github.io/test-
 
 * Samples Macro
 * Multi-Language Support
-* Lint Checker
 
 === Samples Macro
 
@@ -124,7 +128,6 @@ image::side-by-side.png[width=100%, height=100%]
 
 https://gist.github.com/jlstrater/f0b2f16e17e940b9f321783b51c7b347[as a GitHub gist]
 
-=== Lint Checker
+=== Publishing
 
-* compares headings of Asciidoc files to fail the build when titles collide/overlap
-** helpful for refactoring
+* make sure to run the tests

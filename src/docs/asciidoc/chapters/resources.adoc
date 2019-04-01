@@ -3,3 +3,5 @@
 * http://asciidoc.org[Asciidoc]
 * https://asciidoctor.org/[Asciidoctor]
 * https://doctoolchain.github.io/docToolchain/[docToolchain]
+* https://github.com/gradle/exemplar[Exemplar Documentation]
+* https://github.com/gradle/gradle[Gradle on GitHub]

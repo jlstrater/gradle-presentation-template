@@ -1,5 +1,24 @@
-== Other Tools (we use at Gradle)
+== Other Testing Tools
 
-=== Gradle Test Runner Plugin
+=== Gradle Test Kit
 
-* https://plugins.gradle.org/...
+https://docs.gradle.org/current/userguide/test_kit.html[Test Kit]
+
+(mostly for Gradle Plugins)
+
+=== !
+
+https://github.com/gradle-guides/gradle-guides-plugin[Gradle Guides Plugin]
+
+* Gradle Runner
+** Still present in some older guides
+** Good for cross-version testing
+** Really complex config
+* CheckLinks
+** HEAD request to check all absolute links on the page are valid.
+
+[.notes]
+--
+valid != correct
+--
+
