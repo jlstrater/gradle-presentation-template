@@ -67,6 +67,10 @@ Hello, World!
 =====
 ====
 
+=== Publishing
+
+* make sure to run the tests
+
 === Contributions Welcome
 
 * *Idea:* Add markdown support

@@ -62,7 +62,6 @@ https://asciidoctor.org[asciidoctor.org]
 :revnumber: {project-version}
 :example-caption!:
 ifndef::imagesdir[:imagesdir: images]
-ifndef::sourcedir[:sourcedir: ../java]
 :navigation:
 :menu:
 :status:
@@ -126,8 +125,15 @@ https://gist.github.com/jlstrater/c9de94a56e1b6f2b00bf519f47c6cf2e[as a GitHub g
 
 image::side-by-side.png[width=100%, height=100%]
 
+[source,asciidoc]
+--
+
+====
+\include::sample[dir="groovy-dsl/code", files="build.gradle[tags=init]"]
+\include::sample[dir="kotlin-dsl/code", files="build.gradle.kts[tags=init]"]
+====
+
+--
+
+
 https://gist.github.com/jlstrater/f0b2f16e17e940b9f321783b51c7b347[as a GitHub gist]
-
-=== Publishing
-
-* make sure to run the tests
