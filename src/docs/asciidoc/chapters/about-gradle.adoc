@@ -44,6 +44,7 @@ https://gradle.com/careers[gradle.com/careers]
 
 * About Gradle
 * About Gradle Enterprise
+* About Careers at Gradle GmbH
 * If you just want a Gradlephant sticker
 
 image::stickers.jpg[width=50%, height=50%]

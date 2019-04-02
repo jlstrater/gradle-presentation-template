@@ -21,7 +21,7 @@ Jenn Strater (@codeJENNerator) - Developer Advocate - Gradle Inc.
 
 image::logos/github-logo.png[width=10%, height=10%]
 
-https://jlstrater.github.io/test-driven-docs-microxchg[jlstrater.github.io/testdriven-docs-microxhg] https://jlstrater.github.io/test-driven-docs-microxchg/index.html?print-pdf[pdf]
+https://jlstrater.github.io/test-driven-docs-microxchg[jlstrater.github.io/testdriven-docs-microxhg] | https://jlstrater.github.io/test-driven-docs-microxchg/index.html?print-pdf[pdf]
 
 [background-color="#02303A"]
 == Outline
@@ -84,5 +84,14 @@ include::chapters/otherTools.adoc[]
 
 [background-color="#02303A"]
 == Thank you!
+
+=== Talk to me!
+
+* About Gradle
+* About Gradle Enterprise
+* About Careers at Gradle GmbH
+* If you just want a Gradlephant sticker
+
+image::stickers.jpg[width=50%, height=50%]
 
 include::chapters/resources.adoc[]
